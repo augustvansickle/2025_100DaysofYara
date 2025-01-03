@@ -1,0 +1,21 @@
+rule MAL_MSFVENOM_MACOS_MACHO {
+
+meta:
+author = "august"
+description = "MacOS Macho Meterpreter Implant"
+
+strings:
+
+	$a1 = "/Users/vagrant/mettle/mettle/src/mettle.c"
+	$a2 = "_c2_write"
+	$a3 = "/System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation"
+	$a4 = "mettle -U \"WyZqBZO8CIFne255A5tzxw==\"
+	$a5 = "tcp://54.233.141.78:800"
+	$a6 = "_https_getsock"
+	$h1 = { 75 72 6c 00 5f 61 73 63 }
+
+condition:
+
+	any of them
+	
+}
