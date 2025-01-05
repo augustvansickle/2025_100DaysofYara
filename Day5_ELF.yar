@@ -8,7 +8,7 @@ strings:
 
 	$a1 = "\xf2\x8f\x09\x00\xab\xab\xab\xab\xeb\x57" //shellcode
 	$a2 = "(syscall(0x12a" //nonstandard syscall
-	$a3 = "__assert_fail("(code = (void*)mmap((void*)kbase…", "semtex.c", 0x4a, "main""
+	$a3 = "semtex.c"
 	$a4 = "_Jv_RegisterClasses"
 	$h1 = { 2f 62 69 6e 2f 62 61 73 }
 
